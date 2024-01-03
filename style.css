@@ -134,9 +134,11 @@ h1
     .container
 {
     margin-top: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
     text-align: center;
+    padding: 5px;
+    cursor: none;
 }
 
 input
@@ -155,6 +157,7 @@ button
     width: 60px;
     margin: 6px;
     font-size: 30px;
+    transition: all 0s;
 }
 
 
