@@ -122,11 +122,14 @@ h1
 }
 
 
-@media(max-width:62em)
+@media(max-width:480px)
 {
     .container
 {
-    margin-top: 5px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
 }
 
 input
@@ -144,10 +147,12 @@ button
     height: 50px;
     width: 60px;
     margin: 6px;
+    font-size: 30px;
 }
 
-button:hover
+.delete
 {
-    pointer-events: none;
+    font-size: 23px;
 }
+
 }
