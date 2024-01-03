@@ -175,7 +175,7 @@ button:focus {
 
 }
 
-@media (min-width:460px)
+@media (min-width:520px)
 {
     button:hover
 {
