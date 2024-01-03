@@ -142,7 +142,6 @@ h1
     margin-right: 70px;
     text-align: center;
     padding: 5px;
-   
 }
 
 input
@@ -176,7 +175,7 @@ button:focus {
 
 }
 
-@media (min-width:786px)
+@media (min-width:460px)
 {
     button:hover
 {
