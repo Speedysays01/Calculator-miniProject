@@ -68,15 +68,19 @@ button
     transition: all 0.3s;
 }
 
-button:hover
+
+
+/*@media (min-width:786px)
+{
+    button:hover
 {
      background-color:#e5e5e5;
 }
-
-button:active
-{
-    transform: scale(0.96);
-}
+    button:active
+    {
+        transform: scale(0.96);
+    }   
+}*/
 
 .clear
 {
@@ -138,7 +142,7 @@ h1
     margin-right: 70px;
     text-align: center;
     padding: 5px;
-    cursor: none;
+   
 }
 
 input
@@ -166,6 +170,20 @@ button
     font-size: 23px;
 }
 
+button:focus {
+    border-radius: 30%;
+}
 
+}
 
+@media (min-width:786px)
+{
+    button:hover
+{
+     background-color:#e5e5e5;
+}
+    button:active
+    {
+        transform: scale(0.96);
+    }   
 }
