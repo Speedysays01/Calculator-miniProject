@@ -23,7 +23,8 @@ for (item of buttons)
 
         else if (buttonText == '=')
         {
-            try {
+            try 
+            {
                 screen.value = eval(screen.value);
             }
                
@@ -31,9 +32,6 @@ for (item of buttons)
             {
                 screen.value='Error!';
             }
-            
-               
-          
         }
 
         else if (buttonText=='DEL')
